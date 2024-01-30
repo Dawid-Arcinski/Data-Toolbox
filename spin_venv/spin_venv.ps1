@@ -1,5 +1,7 @@
 param (
+    [Alias('t')]
     [string]$target_folder = '.venv',
+    [Alias('r')]
     [string]$requirements_file
 )
 
